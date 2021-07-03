@@ -1,0 +1,37 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    font-size: 20px;
+}
+h1 {
+    font-size: 55px;
+}
+.top-banner {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width {
+    width: 50%;
+    margin-left: 7%;
+}
+.half-width img {
+    width: 85%;
+}
+.orange {
+    color: orange;
+}
+.gray {
+    color: gray;
+}
+.justify {
+    text-align: justify;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(#f0573c, #f59576);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
