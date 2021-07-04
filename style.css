@@ -30,7 +30,7 @@ h1 {
 }
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(#f0573c, #f59576);
+    background-image: linear-gradient(#f0573c, #ec9c82);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
@@ -44,4 +44,31 @@ h1 {
 }
 #text-dream {
     padding-right: 6%;
+}
+.experience {
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience h1 {
+    font-size: 45px;
+}
+.exp-card {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 150px;
+    padding: 0 50px 30px 50px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+#full-stack-card {
+    border-left: 5px solid;
+    border-image: linear-gradient(#f0573c, #ec9c82);
+    border-image-slice: 1;
+}
+#baby-web-card {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 7;
 }
